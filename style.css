@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+
+.list_wrapper{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin:auto;
+    
+}
+
+ul{
+    margin-top: 1rem;
+}
+
+
+
+li{
+    padding:1rem;
+    list-style: none;
+    border: .5px solid black;
+}
+    
+
+
+h1{
+    margin-bottom: 1rem;
+}
+
+.done{
+    text-decoration-line: line-through;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* utilities */
+.d-flex{
+    display: flex;
+}
+
+.space-around{
+    justify-content: space-around;
+}
